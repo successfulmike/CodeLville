@@ -1,0 +1,108 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  /*
+  background: -webkit-linear-gradient(hsl(215,100%,90%), rgba(255,255,255,0));
+  background: -moz-linear-gradient(hsl(105,51%,44%), rgba(255,255,255,0) 5%);
+  background: -ms-linear-gradient(hsl(195,51%,44%), rgba(255,255,255,0) 5%);
+  background: -o-linear-gradient(hsl(195,51%,44%), rgba(255,255,255,0) 5%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  */
+}
+
+/* Header */
+header {
+  background: rgba(0,0,255,0.6);
+  float: left;
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding-top: 5px;
+}
+
+#homelogo {
+  margin: 0;
+  float: left;
+  width: 45%;
+  margin-left: 5%;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+  text-align: left;
+}
+
+/* Navigation */
+nav{
+  margin: 0;
+  float: right;
+  background: none;
+  font-size: 0.9em;
+  text-align: right;
+  width: 45%;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+nav a, header a{
+  text-decoration: none;
+  color: darkblue;
+}
+
+.selected, nav a:hover{
+  color: lightgreen;
+  border-bottom: dotted;
+  border-color: tomato;
+}
+
+li {
+  list-style: none;
+  display: inline; /*used to center li in ul*/
+  padding: 5px;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 40px 0 0 0;
+  display: inline-block; /*used to center ul in nav*/
+}
+
+li:nth-child(-n+4) {
+  border-right-style: solid;
+  border-right-color: #000;
+}
+
+
+/* page content */
+div {
+  width: 73%;
+  max-width: 940px;
+  margin: 10px 13.5%;
+  display: inline-block;
+  padding: 0 10px;
+  border-radius: 25px;
+}
+
+.Here, .method, .mission, .stocks, .perf-img{
+  border: 2px ridge white;
+  background: rgba(0,0,0, 0.1);/*lightgrey;*/
+  box-shadow: 10px 10px 5px steelblue;
+}
+
+.perf-img {
+  display: block;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px steelblue;
+  margin: auto;
+}
+
+#subscr {
+  text-decoration: none;
+  color: darkblue;
+}
+
